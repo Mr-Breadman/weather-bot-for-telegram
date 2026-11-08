@@ -6,7 +6,6 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from aiogram import Bot, Dispatcher
 from aiogram.filters import Command
 from aiogram.types import Message
-from data import init_db, add_user
 from datetime import datetime
 from data import init_db, add_user, get_users_by_time, remove_user
 from config import TOKEN
