@@ -20,7 +20,7 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/Mr-Breadman/telegram-weather-bot.git
+   git clone https://github.com/Mr-Breadman/weather-bot-for-telegram.git
 2. Установите зависимости:
    pip install -r requirements.txt
 3. Получите токен бота у @BotFather в Telegram.
