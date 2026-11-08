@@ -17,7 +17,15 @@
 - Динамические эмодзи в зависимости от погоды.
 
 ## Установка и запуск
-1. Клонируйте репозиторий.
-2. Установите зависимости: `pip install -r requirements.txt`
-3. Вставьте свой токен от `@BotFather` в файл `bot.py` (переменная `TOKEN`).
-4. Запустите: `python bot.py`
+
+1. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com/Mr-Breadman/telegram-weather-bot.git
+2. Установите зависимости:
+   pip install -r requirements.txt
+3. Получите токен бота у @BotFather в Telegram.
+4. Переименуйте файл config_example.py в config.py и вставьте туда ваш токен:
+   BOT_TOKEN = "ВАШ_ТОКЕН_ЗДЕСЬ"
+5. Запустите бота:
+   python bot.py
+ 
