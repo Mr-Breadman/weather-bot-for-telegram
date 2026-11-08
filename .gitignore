@@ -5,7 +5,7 @@ config.py
 .venv/
 venv/
 
-# База данных (она создастся сама)
+# База данных
 *.db
 weather_bot.db
 
